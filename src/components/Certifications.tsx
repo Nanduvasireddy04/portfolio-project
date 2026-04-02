@@ -34,6 +34,7 @@ function Certifications() {
           </p>
         </div>
 
+        
         <div className="cert-card">
           <div className="cert-header">
             <img
@@ -42,13 +43,22 @@ function Certifications() {
               alt="AWS logo"
             />
             <h3>
-              AWS Certified Data Engineer DEA-C01
-              <span className="cert-badge progress">In Progress</span>
+              AWS Certified Data Engineer - Associate DEA-C01
+              <span className="cert-badge verified">Verified</span>
             </h3>
           </div>
           <p>
-            Focused on data pipelines, AWS services, ETL, and cloud-native data
-            engineering workflows.
+            Issue Date: March 28, 2026 | Expiration: March 28, 2029
+            <br />
+            Validation ID: bd3e23b13d6244ac89d3707c3454e2cd
+            <br />
+            <a
+              href="https://aws.amazon.com/verification"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Verify Credential
+            </a>
           </p>
         </div>
 
