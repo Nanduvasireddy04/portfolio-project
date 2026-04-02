@@ -1,5 +1,5 @@
 import React from "react";
-import type { ReactNode } from "react";
+//import type { ReactNode } from "react";
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
