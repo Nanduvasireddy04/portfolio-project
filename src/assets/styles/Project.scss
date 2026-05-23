@@ -47,3 +47,29 @@
         }
     }
 }
+
+/* Add this block to your existing Project.scss */
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 12px 0;
+
+  span {
+    background-color: rgba(80, 0, 202, 0.15);
+    color: #a374ff;
+    border: 1px solid rgba(80, 0, 202, 0.35);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.72rem;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.03em;
+  }
+}
+
+.light-mode .project-tags span {
+  background-color: rgba(80, 0, 202, 0.08);
+  color: #5000ca;
+  border-color: rgba(80, 0, 202, 0.25);
+}
